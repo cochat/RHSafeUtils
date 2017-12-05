@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RHSafeUtils.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray *array = [[NSMutableArray alloc]init];
+    [array rh_safeAddObject:@"1"];
+    
+    BOOL res = [array rh_boolAtIndex:0];
+    
+    NSLog(@"%d", res);
 }
 
 
