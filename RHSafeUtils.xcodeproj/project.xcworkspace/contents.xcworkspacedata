@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RHSateUtils.xcodeproj">
+      location = "self:/Users/ruaho/Documents/company/RHSateUtils/RHSafeUtils.xcodeproj">
    </FileRef>
 </Workspace>

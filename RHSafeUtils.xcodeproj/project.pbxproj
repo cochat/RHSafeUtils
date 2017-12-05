@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		A73740651FD69D6400A39A6D /* RHSafeUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHSafeUtils.h; sourceTree = "<group>"; };
 		A73740661FD69D6400A39A6D /* RHSateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHSateUtils.m; sourceTree = "<group>"; };
-		A7D666F91FD69ACC00CBEFBA /* RHSateUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHSateUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D666F91FD69ACC00CBEFBA /* RHSafeUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHSafeUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D666FC1FD69ACC00CBEFBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7D666FD1FD69ACC00CBEFBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A7D666FF1FD69ACC00CBEFBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -46,8 +46,8 @@
 		A7D667081FD69ACC00CBEFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D6670A1FD69ACC00CBEFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D6670B1FD69ACC00CBEFBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7D667111FD69ACC00CBEFBA /* RHSateUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHSateUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7D6671C1FD69ACC00CBEFBA /* RHSateUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHSateUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D667111FD69ACC00CBEFBA /* RHSafeUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHSafeUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D6671C1FD69ACC00CBEFBA /* RHSafeUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHSafeUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		A7D666F01FD69ACB00CBEFBA = {
 			isa = PBXGroup;
 			children = (
-				A7D666FB1FD69ACC00CBEFBA /* RHSateUtils */,
+				A7D666FB1FD69ACC00CBEFBA /* RHSafeUtils */,
 				A7D666FA1FD69ACC00CBEFBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +95,14 @@
 		A7D666FA1FD69ACC00CBEFBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7D666F91FD69ACC00CBEFBA /* RHSateUtils.app */,
-				A7D667111FD69ACC00CBEFBA /* RHSateUtilsTests.xctest */,
-				A7D6671C1FD69ACC00CBEFBA /* RHSateUtilsUITests.xctest */,
+				A7D666F91FD69ACC00CBEFBA /* RHSafeUtils.app */,
+				A7D667111FD69ACC00CBEFBA /* RHSafeUtilsTests.xctest */,
+				A7D6671C1FD69ACC00CBEFBA /* RHSafeUtilsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7D666FB1FD69ACC00CBEFBA /* RHSateUtils */ = {
+		A7D666FB1FD69ACC00CBEFBA /* RHSafeUtils */ = {
 			isa = PBXGroup;
 			children = (
 				A73740641FD69D5300A39A6D /* Classes */,
@@ -116,15 +116,15 @@
 				A7D6670A1FD69ACC00CBEFBA /* Info.plist */,
 				A7D6670B1FD69ACC00CBEFBA /* main.m */,
 			);
-			path = RHSateUtils;
+			path = RHSafeUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7D666F81FD69ACC00CBEFBA /* RHSateUtils */ = {
+		A7D666F81FD69ACC00CBEFBA /* RHSafeUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D667251FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSateUtils" */;
+			buildConfigurationList = A7D667251FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSafeUtils" */;
 			buildPhases = (
 				A7D666F51FD69ACC00CBEFBA /* Sources */,
 				A7D666F61FD69ACC00CBEFBA /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = RHSateUtils;
+			name = RHSafeUtils;
 			productName = RHSateUtils;
-			productReference = A7D666F91FD69ACC00CBEFBA /* RHSateUtils.app */;
+			productReference = A7D666F91FD69ACC00CBEFBA /* RHSafeUtils.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7D667101FD69ACC00CBEFBA /* RHSateUtilsTests */ = {
+		A7D667101FD69ACC00CBEFBA /* RHSafeUtilsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D667281FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSateUtilsTests" */;
+			buildConfigurationList = A7D667281FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSafeUtilsTests" */;
 			buildPhases = (
 				A7D6670D1FD69ACC00CBEFBA /* Sources */,
 				A7D6670E1FD69ACC00CBEFBA /* Frameworks */,
@@ -152,14 +152,14 @@
 			dependencies = (
 				A7D667131FD69ACC00CBEFBA /* PBXTargetDependency */,
 			);
-			name = RHSateUtilsTests;
+			name = RHSafeUtilsTests;
 			productName = RHSateUtilsTests;
-			productReference = A7D667111FD69ACC00CBEFBA /* RHSateUtilsTests.xctest */;
+			productReference = A7D667111FD69ACC00CBEFBA /* RHSafeUtilsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A7D6671B1FD69ACC00CBEFBA /* RHSateUtilsUITests */ = {
+		A7D6671B1FD69ACC00CBEFBA /* RHSafeUtilsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D6672B1FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSateUtilsUITests" */;
+			buildConfigurationList = A7D6672B1FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSafeUtilsUITests" */;
 			buildPhases = (
 				A7D667181FD69ACC00CBEFBA /* Sources */,
 				A7D667191FD69ACC00CBEFBA /* Frameworks */,
@@ -170,9 +170,9 @@
 			dependencies = (
 				A7D6671E1FD69ACC00CBEFBA /* PBXTargetDependency */,
 			);
-			name = RHSateUtilsUITests;
+			name = RHSafeUtilsUITests;
 			productName = RHSateUtilsUITests;
-			productReference = A7D6671C1FD69ACC00CBEFBA /* RHSateUtilsUITests.xctest */;
+			productReference = A7D6671C1FD69ACC00CBEFBA /* RHSafeUtilsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7D666F41FD69ACB00CBEFBA /* Build configuration list for PBXProject "RHSateUtils" */;
+			buildConfigurationList = A7D666F41FD69ACB00CBEFBA /* Build configuration list for PBXProject "RHSafeUtils" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7D666F81FD69ACC00CBEFBA /* RHSateUtils */,
-				A7D667101FD69ACC00CBEFBA /* RHSateUtilsTests */,
-				A7D6671B1FD69ACC00CBEFBA /* RHSateUtilsUITests */,
+				A7D666F81FD69ACC00CBEFBA /* RHSafeUtils */,
+				A7D667101FD69ACC00CBEFBA /* RHSafeUtilsTests */,
+				A7D6671B1FD69ACC00CBEFBA /* RHSafeUtilsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,12 +278,12 @@
 /* Begin PBXTargetDependency section */
 		A7D667131FD69ACC00CBEFBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7D666F81FD69ACC00CBEFBA /* RHSateUtils */;
+			target = A7D666F81FD69ACC00CBEFBA /* RHSafeUtils */;
 			targetProxy = A7D667121FD69ACC00CBEFBA /* PBXContainerItemProxy */;
 		};
 		A7D6671E1FD69ACC00CBEFBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7D666F81FD69ACC00CBEFBA /* RHSateUtils */;
+			target = A7D666F81FD69ACC00CBEFBA /* RHSafeUtils */;
 			targetProxy = A7D6671D1FD69ACC00CBEFBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKWSDFFC99;
-				INFOPLIST_FILE = RHSateUtils/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RHSafeUtils/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liangju.RHSateUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +432,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKWSDFFC99;
-				INFOPLIST_FILE = RHSateUtils/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RHSafeUtils/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liangju.RHSateUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = liangju.RHSateUtilsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHSateUtils.app/RHSateUtils";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHSafeUtils.app/RHSafeUtils";
 			};
 			name = Debug;
 		};
@@ -466,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = liangju.RHSateUtilsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHSateUtils.app/RHSateUtils";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHSafeUtils.app/RHSafeUtils";
 			};
 			name = Release;
 		};
@@ -501,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7D666F41FD69ACB00CBEFBA /* Build configuration list for PBXProject "RHSateUtils" */ = {
+		A7D666F41FD69ACB00CBEFBA /* Build configuration list for PBXProject "RHSafeUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D667231FD69ACC00CBEFBA /* Debug */,
@@ -510,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D667251FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSateUtils" */ = {
+		A7D667251FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSafeUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D667261FD69ACC00CBEFBA /* Debug */,
@@ -519,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D667281FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSateUtilsTests" */ = {
+		A7D667281FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSafeUtilsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D667291FD69ACC00CBEFBA /* Debug */,
@@ -528,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D6672B1FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSateUtilsUITests" */ = {
+		A7D6672B1FD69ACC00CBEFBA /* Build configuration list for PBXNativeTarget "RHSafeUtilsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7D6672C1FD69ACC00CBEFBA /* Debug */,
