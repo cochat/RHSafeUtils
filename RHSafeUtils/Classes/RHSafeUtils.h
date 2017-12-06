@@ -52,3 +52,9 @@
 - (void)rh_safeSetObject:(id)anObject forKey:(id)key;
 
 @end
+
+@interface NSString (RHSateUtils)
+
+- (BOOL)isBlank;
+
+@end
