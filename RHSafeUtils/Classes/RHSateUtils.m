@@ -164,7 +164,7 @@
 
 @implementation NSString (RHSateUtils)
 
-- (BOOL)isBlank {
+- (BOOL)rh_isBlank {
     if (self == nil || self == NULL) {
         return YES;
     }

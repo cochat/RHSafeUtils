@@ -55,6 +55,6 @@
 
 @interface NSString (RHSateUtils)
 
-- (BOOL)isBlank;
+- (BOOL)rh_isBlank;
 
 @end
