@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "liangju" => "liuliangju@ruaho.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/cochat/RHSafeUtils.git", :tag => "#{s.version}" }
-  s.source_files = "RHSateUtils/Classes/*.{h,m}"
+  s.source_files = "RHSafeUtils/Classes/*.{h,m}"
   s.requires_arc = true
 
 end
