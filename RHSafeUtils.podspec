@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "RHSateUtils"
+  s.name         = "RHSafeUtils"
   s.version      = "1.0.0"
   
   s.summary      = "数组、字典、字符串的安全校验"
