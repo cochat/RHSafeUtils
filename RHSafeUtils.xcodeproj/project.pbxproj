@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A73740671FD69D6400A39A6D /* RHSateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A73740661FD69D6400A39A6D /* RHSateUtils.m */; };
+		A73740671FD69D6400A39A6D /* RHSafeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A73740661FD69D6400A39A6D /* RHSafeUtils.m */; };
 		A7D666FE1FD69ACC00CBEFBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D666FD1FD69ACC00CBEFBA /* AppDelegate.m */; };
 		A7D667011FD69ACC00CBEFBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D667001FD69ACC00CBEFBA /* ViewController.m */; };
 		A7D667041FD69ACC00CBEFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D667021FD69ACC00CBEFBA /* Main.storyboard */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		A73740651FD69D6400A39A6D /* RHSafeUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHSafeUtils.h; sourceTree = "<group>"; };
-		A73740661FD69D6400A39A6D /* RHSateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHSateUtils.m; sourceTree = "<group>"; };
+		A73740661FD69D6400A39A6D /* RHSafeUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHSafeUtils.m; sourceTree = "<group>"; };
 		A7D666F91FD69ACC00CBEFBA /* RHSafeUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHSafeUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D666FC1FD69ACC00CBEFBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7D666FD1FD69ACC00CBEFBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				A73740651FD69D6400A39A6D /* RHSafeUtils.h */,
-				A73740661FD69D6400A39A6D /* RHSateUtils.m */,
+				A73740661FD69D6400A39A6D /* RHSafeUtils.m */,
 			);
 			path = RHSafeUtils;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 				A7D667011FD69ACC00CBEFBA /* ViewController.m in Sources */,
 				A7D6670C1FD69ACC00CBEFBA /* main.m in Sources */,
 				A7D666FE1FD69ACC00CBEFBA /* AppDelegate.m in Sources */,
-				A73740671FD69D6400A39A6D /* RHSateUtils.m in Sources */,
+				A73740671FD69D6400A39A6D /* RHSafeUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

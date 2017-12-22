@@ -1,6 +1,6 @@
 //
 //  RHSateUtils.h
-//  RHSateUtils
+//  RHSafeUtils
 //
 //  Created by liangju on 12/5/17.
 //  Copyright © 2017 liangju. All rights reserved.
