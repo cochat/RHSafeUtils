@@ -29,6 +29,13 @@
     return nil;
 }
 
++ (BOOL)rh_IsSafeArray:(NSArray *)array {
+    if (array==nil || [array isEqual:[NSNull null]] || ![array isKindOfClass:[NSArray class]] || array.count<1) {
+        return NO;
+    }
+    return YES;
+}
+
 - (BOOL)rh_boolAtIndex:(NSUInteger)index {
     id value = [self rh_safeObjectAtIndex:index];
     if ([value isKindOfClass:[NSNumber class]] || [value isKindOfClass:[NSString class]]) {

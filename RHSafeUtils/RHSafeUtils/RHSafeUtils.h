@@ -15,6 +15,7 @@
 - (id)rh_safeObjectAtIndex:(NSUInteger)index class:(Class)aClass;
 
 - (BOOL)rh_boolAtIndex:(NSUInteger)index;
++ (BOOL)rh_IsSafeArray:(NSArray *)array;
 - (CGFloat)rh_floatAtIndex:(NSUInteger)index;
 - (NSInteger)rh_integerAtIndex:(NSUInteger)index;
 - (NSString *)rh_stringAtIndex:(NSUInteger)index;
