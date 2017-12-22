@@ -11,9 +11,9 @@
 @implementation NSArray (RHSafeUtils)
 
 - (id)rh_safeObjectAtIndex:(NSUInteger)index {
-    if (index >= self.count) {
+    if (index >= self.count)
         return nil;
-    }
+    
     id value = [self objectAtIndex:index];
     if (value == [NSNull null]) {
         return nil;
@@ -23,24 +23,22 @@
 
 - (id)rh_safeObjectAtIndex:(NSUInteger)index class:(Class)aClass {
     id value = [self rh_safeObjectAtIndex:index];
-    if ([value isKindOfClass:aClass]) {
+    if ([value isKindOfClass:aClass])
         return value;
-    }
+
     return nil;
 }
 
 + (BOOL)rh_IsSafeArray:(NSArray *)array {
-    if (array==nil || [array isEqual:[NSNull null]] || ![array isKindOfClass:[NSArray class]] || array.count<1) {
+    if (array==nil || [array isEqual:[NSNull null]] || ![array isKindOfClass:[NSArray class]] || array.count<1)
         return NO;
-    }
     return YES;
 }
 
 - (BOOL)rh_boolAtIndex:(NSUInteger)index {
     id value = [self rh_safeObjectAtIndex:index];
-    if ([value isKindOfClass:[NSNumber class]] || [value isKindOfClass:[NSString class]]) {
+    if ([value isKindOfClass:[NSNumber class]] || [value isKindOfClass:[NSString class]])
         return [value boolValue];
-    }
     return 0;
 }
 
@@ -157,6 +155,13 @@
     }
 }
 
++ (BOOL)rh_IsSafeDictionary:(NSDictionary *)dictionary {
+    if (dictionary == nil || [dictionary isEqual:[NSNull null]] || ![dictionary isKindOfClass:[NSDictionary class]] || dictionary.count < 1) {
+        return NO;
+    }
+    return YES;
+}
+
 @end
 
 @implementation NSMutableDictionary (RHSateUtils)
@@ -172,14 +177,12 @@
 @implementation NSString (RHSateUtils)
 
 - (BOOL)rh_isBlank {
-    if (self == nil || self == NULL) {
+    if (self == nil || self == NULL)
         return YES;
-    }
     
-    if ([self isKindOfClass:[NSNull class]]) {
+    if ([self isKindOfClass:[NSNull class]])
         return YES;
-    }
-    
+
     if (([[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length] == 0) || ([[self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] length] == 0)) {
         return YES;
     }

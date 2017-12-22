@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RHSafeUtils"
-  s.version      = "1.2.0"
+  s.version      = "1.3.0"
   
   s.summary      = "数组、字典、字符串的安全校验"
   s.homepage     = "https://github.com/cochat/RHSafeUtils"

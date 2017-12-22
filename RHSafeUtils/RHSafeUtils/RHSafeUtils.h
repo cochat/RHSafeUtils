@@ -37,6 +37,7 @@
 - (id)rh_safeObjectForKey:(id)key class:(Class)aClass;
 
 - (BOOL)rh_boolForKey:(id)key;
++ (BOOL)rh_IsSafeDictionary:(NSDictionary *)dictionary;
 - (CGFloat)rh_floatForKey:(id)key;
 - (NSInteger)rh_integerForKey:(id)key;
 - (NSString *)rh_stringForKey:(id)key;
